@@ -1,0 +1,197 @@
+/*fuentes*/ 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+body {
+    margin: 0%;
+}
+/*barradebusqueda*/ 
+.logo img {
+    width: 90px;
+    height: 65px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  li {
+    float: right;
+    font-family: "Bebas Neue", serif;
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 19px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #F3BF1E;
+    color: #000000;
+  }
+/*encabezado*/ 
+
+.banner {
+    position: relative;
+    background-position: center;
+    padding: 0 0 690px 0;
+    background-image: url(img/banner.png);
+	background-size: cover;
+}
+.capa {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.60);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+} 
+.subt{
+    text-align: center;
+    font-family: "Bebas Neue", serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: #ffffff;
+}
+.subt h1{
+    font-size: 90px;
+    color: #F3BF1E;
+}
+.subt h2{
+    font-size: 40px;
+}
+.subt p {
+    font-size: 15px;
+    font-family: "Geist", serif;
+}
+.margen {
+    display: flex;
+    justify-content: center;
+
+}
+.boton {
+    background-color: #F3BF1E;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px 15px;
+    text-align: center;
+
+}
+.boton:hover {
+    background-color: #000000;
+    color: #F3BF1E;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/*contenedores*/ 
+.cont {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.contenedor {
+    background-color: #F3BF1E;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+/*titulodeubicaciones*/ 
+.tituloubi {
+    text-align:center ;
+    color: #F3BF1E;
+    font-family: "Bebas Neue", serif;
+    font-size: 19px;
+}
+/*Textodebajodeimagenes*/ 
+.ubicaciones{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.imagen{
+    padding: 20px;
+}
+.imagen p{
+    text-align: center;
+}
+/*informacion-imagenes-texto*/ 
+.info {
+    text-align: left;
+    font-size: 50px;
+    margin: 5px;
+    font-family: "Geist", serif;
+}
+p {
+    font-size: 20px;
+    font-family: "Geist", serif;
+}
+.grupo {
+    margin-left: 45px;
+    font-size: 60px;
+    text-align: left;
+    font-family: "Bebas Neue", serif;
+}
+.ubicaciones img{
+    width: 300px;
+    height: 190px;
+}
+.nombres {
+    font-size: 23px;
+    font-family: "Bebas Neue", serif;
+}
+.fechas {
+    margin-left: 50px;
+    font-size: 20px;
+}
+/*imgdeblog*/ 
+.blog{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.imagenblog {
+    margin: 50px;
+    text-align: center;
+    background-color: #F3BF1E;
+    padding: 0 0 0 0;
+}
+.blog img {
+   width: 300px;
+}
+/*footer*/ 
+footer {
+    background-color: black;
+    padding: 100px;
+}
+.nomb {
+    text-align: left;
+    color: #F3BF1E;
+    font-size: 50px;
+    font-family: "Bebas Neue", serif;
+}
+.contact {
+    text-align: left;
+    color: #ffffff;
+    font-size: 20px;
+}
+.copy {
+    text-align: left;
+    color: #ffffff;
+    font-size: 20px;
+}
